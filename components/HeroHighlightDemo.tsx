@@ -5,8 +5,7 @@ import { CardBody, CardContainer, CardItem } from "./ui/threeDcard";
 import { Spotlight } from "./ui/Spotlight";
 export function HeroHighlightDemo() {
   return (
-
-    <div className="h-[1300px]">
+    <div className="h-[1300px] relative top-[20rem]">
       {/* <div className="h-[50rem] w-full overflow-hidden  dark:bg-grid-white/[0.2] bg-grid-black/[0.8] relative flex flex-wrap items-center justify-center"> */}
       {/* Radial gradient for the container to give a faded look */}
        {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>  */}
@@ -19,7 +18,7 @@ export function HeroHighlightDemo() {
         className="h-[30rem] w-[100em] top-[18rem] left-[15em]"
         fill="white"
         /> */}
-    <div className=" h-[40rem] w-full rounded-md flex flex-wrap md:items-center md:justify-center antialiased bg-grid-white/[0.8] relative ">
+    <div className=" h-[40rem] w-full rounded-md flex flex-wrap md:items-center md:justify-center antialiased bg-grid-white/[0.9] relative ">
     <div className="gradient-mask-t-0 absolute pointer-events-none inset-0 flex items-center bg-black-100 justify-center h-[40rem] w-full"></div>
     <div className="gradient-mask-b-0 absolute pointer-events-none inset-0 flex items-center bg-black-100 justify-center h-[40rem] w-full"></div>
     <div className="gradient-mask-l-0 absolute pointer-events-none inset-0 flex items-center bg-black-100 justify-center h-[40rem] w-full"></div>

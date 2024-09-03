@@ -64,7 +64,7 @@ export function AuroraBackgroundDemo() {
             </div>
             <div className="child">
             </div>
-            <button className="btn"> Hire me</button>
+            <button className="btn z-[4000]"> Hire me</button>
           </div>
         </div>
 

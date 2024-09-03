@@ -204,6 +204,11 @@
 .right-container{
   left: 50%;
 }
+.infi{
+  
+  border-radius: 20px;
+  background-image: -webkit-linear-gradient(45deg, #065855,rgb(104, 4, 56), #9e3a0c);
+}
 .container img{
   position: absolute;
   width: 40px;
