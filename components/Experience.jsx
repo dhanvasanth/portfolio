@@ -1,12 +1,8 @@
 "use client";
 import React from 'react'
-import { workExperience } from './data'
-import { SparklesCore } from './ui/sparkles'
-import { Opacity } from '@tsparticles/engine';
 import { motion } from 'framer-motion';
 
 import { GlareCard } from './ui/glare-card';
-import { relative } from 'path';
 const di  = () =>{
   for(let i=0;i<=50;i++){
     return(

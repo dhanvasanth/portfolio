@@ -1,7 +1,6 @@
 import React from "react";
 import { FlipWords } from "./ui/flip-words";
 import { Spotlight } from "./ui/Spotlight";
-import { motion } from 'framer-motion';
 
 export function FlipWordsDemo() {
   const words = [" Student", "Competitive coder", "Web developer", "Team-player"];
