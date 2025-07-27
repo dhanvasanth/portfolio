@@ -17,8 +17,10 @@ export default function Home() {
         <AuroraBackgroundDemo key={2}/>
         <LampDemo key={3}/>
         <Experience key={4}/>
-        <InfiniteMovingCardsDemo key={5}/>
-        <HeroHighlightDemo key={6}/>
+        <div className="absolute top-[180em] right-[-280px]">
+          <InfiniteMovingCardsDemo key={5}/>
+          <HeroHighlightDemo key={6}/>
+        </div>
       </div >
       </TracingBeam>  
     </main>

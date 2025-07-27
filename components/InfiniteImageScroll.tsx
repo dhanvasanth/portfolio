@@ -26,31 +26,15 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     quote:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Charles Dickens",
-    title: "A Tale of Two Cities",
+      "In this internship at Stitch Financial Technologies Ltd, I worked on backend development using Golang. I started by learning Go basics and fundamentals, Linux basics, and used WSL for development. I also learned dependency injection using Wire, integrated GORM with MariaDB for ORM and database interaction, and used the Gin framework to build fast and modular RESTful APIs efficiently.",
+    name: "Internship",
+    title: "Stitch Financial technologies",
   },
   {
     quote:
-      "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
-    name: "William Shakespeare",
-    title: "Hamlet",
+      "I developed the TicketSys UI using Next.js and TypeScript, implementing full CRUD operations for the ticketing system. On the backend, I built services using Golang, connected with MariaDB for data persistence. I also implemented SMTP-based OTP verification for login through a dedicated email-service. Additionally, I designed and developed the user-manager microservice with JWT authentication and planned the User Access Management (UAM) schema for role-based access control",
+    name: "Project",
+    title: "Simple ticketing System",
   },
-  {
-    quote: "All that we see or seem is but a dream within a dream.",
-    name: "Edgar Allan Poe",
-    title: "A Dream Within a Dream",
-  },
-  {
-    quote:
-      "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
-    name: "Jane Austen",
-    title: "Pride and Prejudice",
-  },
-  {
-    quote:
-      "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-    name: "Herman Melville",
-    title: "Moby-Dick",
-  },
+  
 ];

@@ -25,7 +25,7 @@ export function AuroraBackgroundDemo() {
     
   ];
   return (
-    <div id="home">
+    <div id="home" className="">
      
     <AuroraBackground>
     
@@ -57,14 +57,21 @@ export function AuroraBackgroundDemo() {
         }}
         className="relative flex flex-row gap-4 items-center justify-center right-[90px] "
       >
+          
         <div className="relative right-[24rem] bottom-[5rem]">
           <div className="cardz">
             <div className="cont">
               <img className="my" src="/prof.jpeg" alt="" />
             </div>
             <div className="child">
+              {/* <a href="https://www.linkedin.com/in/dhan-vasanth-r-2bb67828b" className="z-[1000]"><button>hire me</button></a> */}
             </div>
-            <button className="btn z-[4000]"> Hire me</button>
+            {/* <div className="bbn">
+              <a href="https://www.linkedin.com/in/dhan-vasanth-r-2bb67828b"><button className=""> Hire me</button></a>
+            </div> */}
+            <a href="https://www.linkedin.com/in/dhan-vasanth-r-2bb67828b" target="blank"><button className="bbn"> Hire me</button></a>
+
+                      
           </div>
         </div>
 

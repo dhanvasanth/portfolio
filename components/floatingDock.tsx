@@ -40,7 +40,7 @@ export function FloatingDockDemo() {
   return (
     <div className="fixed top-[-300px] right-[10px] flex items-center justify-center h-[35rem] w-full z-[1000]">
       <FloatingDock
-          desktopClassName =" dock translate-y-20" // only for demo, remove for production
+          desktopClassName =" dock translate-y-20" 
         items={links}
       />
     </div>

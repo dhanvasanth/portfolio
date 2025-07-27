@@ -92,9 +92,9 @@ const experience = () => {
             <GlareCard className="flex flex-col items-center justify-center ">
             <h1 className="text-white font-bold text-xl mt-4">B.TECH</h1><br />
             <div className='relative top-2 left-2 text-center'>
-              <p> Pursuing ELECTRONICS AND COMPUTER ENGINEERING at VIT University (chennai) <br /> <br /> Batch year : 2nd year</p>
+              <p> Pursuing ELECTRONICS AND COMPUTER ENGINEERING at VIT University (chennai) <br /> <br /> Batch year : 3rd year</p>
               </div>
-              <p> CGPA  :  9.01</p>
+              <p> CGPA  :  9.05</p>
             </GlareCard>
         </motion.div>
 

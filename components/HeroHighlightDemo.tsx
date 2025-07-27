@@ -5,7 +5,7 @@ import { CardBody, CardContainer, CardItem } from "./ui/threeDcard";
 import { Spotlight } from "./ui/Spotlight";
 export function HeroHighlightDemo() {
   return (
-    <div className="h-[1300px] relative top-[20rem]">
+    <div id = "tech" className="h-[1300px] relative top-[20rem] z-0">
       {/* <div className="h-[50rem] w-full overflow-hidden  dark:bg-grid-white/[0.2] bg-grid-black/[0.8] relative flex flex-wrap items-center justify-center"> */}
       {/* Radial gradient for the container to give a faded look */}
        {/* <div className="absolute pointer-events-none inset-0 flex items-center justify-center [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>  */}
@@ -25,7 +25,7 @@ export function HeroHighlightDemo() {
     <div className="gradient-mask-r-0 absolute pointer-events-none inset-0 flex items-center bg-black-100 justify-center h-[40rem] w-full"></div>
 
       <Spotlight
-        className="top-[2em] left-60 h-[100em] w-[100em] "
+        className="top-[2em] left-[500px] h-[1000px] w-[70em] "
         fill="white"
       />
       

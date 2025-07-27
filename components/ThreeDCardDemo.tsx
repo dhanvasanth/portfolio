@@ -133,7 +133,13 @@ import { BackgroundGradientAnimation } from "./ui/background-gradient";
 
 export function ThreeDCardDemo() {
   return (
-    <section className='relative top-[400px]'>
+    <section className=' relative top-[400px]'>
+      <motion.div  initial={{ backgroundImage:" -webkit-linear-gradient(rgb(174, 0, 0),rgb(122, 0, 122),rgb(0, 0, 173))",width:100,height:0,borderRadius:50,position:"absolute",top:100,left:100,filter:"blur(100px)"}} 
+       whileInView={{ backgroundImage:" -webkit-linear-gradient(rgb(174, 0, 0, 0.76),rgb(122, 0, 122),rgb(0, 0, 173))",width:300,height:300,borderRadius:50,position:"absolute",top:100,left:100}} 
+       transition={{duration:2}}></motion.div>
+      <motion.div  initial={{ backgroundImage:" -webkit-linear-gradient(rgb(116, 0, 0),rgb(88, 0, 88),rgb(0, 0, 173))",width:300,height:0,borderRadius:50,position:"absolute",top:80,left:900,filter:"blur(100px)"}} 
+       whileInView={{ backgroundImage:" -webkit-linear-gradient(-45deg,rgb(174, 0, 0, 0.76),rgb(122, 0, 122),rgb(0, 0, 173))",width:400,height:500,borderRadius:50,position:"absolute",top:80,left:900}} 
+       transition={{duration:2}}></motion.div>
       <div className="flex flex-row flex-wrap relative">
         {gridItems.map((item, i) => (
           <CardContainer key={i} className={item.className}>

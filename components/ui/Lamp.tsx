@@ -19,7 +19,7 @@ export function LampDemo() {
         }}
         className=" mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text "
       >
-        <div className="relative top-[350px] left-[230px] text-4xl">ABOUT</div>
+        <div className=" about relative top-[350px] left-[200px]  sm:text-5xl font-bold  z-20 bg-clip-text text-transparent">ABOUT</div>
 
         <ThreeDCardDemo />
       </motion.h1>

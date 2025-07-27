@@ -46,7 +46,7 @@ export const navItems = [
       description: "",
       className: "cards",
       img: "/code.jpg",
-      imgclass: "h-22 object-cover rounded-xl group-hover/card:shadow-xl w-50",
+      imgclass: "h-[510px] object-cover rounded-xl group-hover/card:shadow-xl w-50",
     }
   ];
   
